@@ -1,0 +1,12 @@
+<h1>Album</h1>
+Total photos: {{data.album.photos.length}}
+<ul class="album">
+	{{#data.album.photos}}
+	<li>
+		<a href="/albums/{{data.album.album_name}}/{{.}}" target="_blank"><img src="/albums/{{data.album.album_name}}/{{.}}" alt="{{.}}"></a>
+	</li>
+	{{/data.album.photos}}
+</ul>
+<div>
+	<a href="/pages/home">Go Back</a>
+</div>

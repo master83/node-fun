@@ -1,0 +1,15 @@
+{
+	"name": "photo_sharing",
+	"description": "photosharing with expressjs",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"express": "3.x",
+		"async": "0.x"
+	}
+
+}

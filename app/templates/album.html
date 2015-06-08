@@ -1,0 +1,9 @@
+<h1>Album</h1>
+Total photos: {{data.album.photos.length}}
+<ul class="album">
+	{{#data.album.photos}}
+	<li>
+		<img src="/albums{{data.album.album_name}}/{{.}}" alt="{{.}}">
+	</li>
+	{{/data.album.photos}}
+</ul>

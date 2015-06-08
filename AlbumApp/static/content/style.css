@@ -1,0 +1,17 @@
+.albums li, .album li {
+	list-style: none;
+}
+
+.albums li a {
+	text-decoration: none;
+	color: blue;
+}
+
+.albums li a:hover {
+	border-bottom: 1px dotted blue;
+}
+
+.album img {
+	width: 100px;
+	height: 100px;
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Mongodb-Demo",
+	"description": "Demo of Mongodb",
+	"version": "0.0.1",
+	"private": true,
+	"dependencies": {
+		"async": "0.1.x",
+		"mongodb": "1.2.x"
+	}
+}
